@@ -22,6 +22,14 @@
             },
             "entityType": "url",
             "action": "add-or-update"
-        }
+        },
+            "entity": {
+                "method": "*",
+                "name": "/vulnerabilities/brute*",
+                "protocol": "http",
+                "type": "wildcard"
+            },
+            "entityType": "url",
+            "action": "add-or-update"
     ]
 }
