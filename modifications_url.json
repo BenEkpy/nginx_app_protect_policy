@@ -1,0 +1,38 @@
+{
+    "modifications": [
+        {
+            "entity": {
+                "name": "/vulnerabilities/sqli*"
+            },
+            "entityChanges": {
+                "signatureOverrides": [
+                    {
+                        "signatureId": 200002147,
+                        "enabled": false
+                    },
+                    {
+                        "signatureId": 200002835,
+                        "enabled": false
+                    },
+                    {
+                        "signatureId": 200002476,
+                        "enabled": false
+                    }
+                ]
+            },
+            "entityType": "url",
+            "action": "add-or-update"
+        },
+        {
+            "entity": {
+                "method": "*",
+                "name": "/vulnerabilities/brute*",
+                "protocol": "http",
+                "type": "wildcard",
+                "wildcardOrder": 1
+            },
+            "entityType": "url",
+            "action": "add-or-update"
+        }
+    ]
+}
