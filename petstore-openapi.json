@@ -1,7 +1,7 @@
 {
     "swagger": "2.0",
     "host": "petstore.swagger.io",
-    "basePath": "/petstore/api",
+    "basePath": "/api",
     "schemes": [
         "https",
         "http"
