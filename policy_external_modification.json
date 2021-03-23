@@ -34,6 +34,6 @@
         ]
     },
     "modificationsReference": {
-        "link": "http://my-domain.com:8081/modifications.txt"
+        "link": "https://raw.githubusercontent.com/BenEkpy/nginx_app_protect_policy/main/modifications.json"
     }
 }
