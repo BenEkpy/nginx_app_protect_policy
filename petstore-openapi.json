@@ -1061,10 +1061,6 @@
                 }
             },
             "Pet": {
-                "required": [
-                    "name",
-                    "photoUrls"
-                ],
                 "type": "object",
                 "properties": {
                     "id": {
