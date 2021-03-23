@@ -1,1 +1,0 @@
-# nginx_app_protect_policy
