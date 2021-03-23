@@ -11,7 +11,7 @@
                 {
                     "name": "VIOL_URL",
                     "alarm": true,
-                    "block": false
+                    "block": true
                 }
             ]
         },
@@ -28,8 +28,7 @@
                 "name": "/vulnerabilities*",
                 "protocol": "http",
                 "type": "wildcard",
-                "wildcardOrder": 2,
-                "isAllowed": false
+                "wildcardOrder": 2
             }
         ]
     },
