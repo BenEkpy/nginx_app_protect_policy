@@ -256,7 +256,7 @@
                 "deprecated": true
             }
         },
-        "/pet/{petId}": {
+        "/petstore/api/pet/{petId}": {
             "get": {
                 "tags": [
                     "pet"
