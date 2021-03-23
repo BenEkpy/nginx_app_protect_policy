@@ -29,7 +29,7 @@
                 "name": "/vulnerabilities/brute*",
                 "protocol": "http",
                 "type": "wildcard",
-                "wildcardOrder": -1
+                "wildcardOrder": 1
             },
             "entityType": "url",
             "action": "add-or-update"
