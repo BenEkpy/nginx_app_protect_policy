@@ -11,7 +11,7 @@
                 {
                     "name": "VIOL_URL",
                     "alarm": true,
-                    "block": true
+                    "block": false
                 }
             ]
         },
