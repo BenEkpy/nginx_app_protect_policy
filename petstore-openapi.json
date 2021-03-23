@@ -1,7 +1,6 @@
 {
     "swagger": "2.0",
     "host": "nginx-plus-c-bsi-nginx-demo.francecentral.cloudapp.azure.com",
-    "basePath": "/petstore/api",
     "schemes": [
         "https",
         "http"
@@ -151,7 +150,7 @@
                 ]
             }
         },
-        "/pet/findByStatus": {
+        "/petstore/api/pet/findByStatus": {
             "get": {
                 "tags": [
                     "pet"
