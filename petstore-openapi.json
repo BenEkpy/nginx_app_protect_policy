@@ -2,28 +2,6 @@
     "swagger": "2.0",
     "host": "nginx-plus-c-bsi-nginx-demo.francecentral.cloudapp.azure.com",
     "basePath": "/petstore/api",
-    "tags": [
-        {
-            "name": "pet",
-            "description": "Everything about your Pets",
-            "externalDocs": {
-                "description": "Find out more",
-                "url": "http://swagger.io"
-            }
-        },
-        {
-            "name": "store",
-            "description": "Access to Petstore orders"
-        },
-        {
-            "name": "user",
-            "description": "Operations about user",
-            "externalDocs": {
-                "description": "Find out more about our store",
-                "url": "http://swagger.io"
-            }
-        }
-    ],
     "schemes": [
         "https",
         "http"
@@ -173,7 +151,7 @@
                 ]
             }
         },
-        "/petstore/api/pet/findByStatus": {
+        "/pet/findByStatus": {
             "get": {
                 "tags": [
                     "pet"
@@ -1033,9 +1011,5 @@
                 "name": "User"
             }
         }
-    },
-    "externalDocs": {
-        "description": "Find out more about Swagger",
-        "url": "http://swagger.io"
     }
 }
