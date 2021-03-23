@@ -6,7 +6,7 @@
         "http"
     ],
     "paths": {
-        "/pet/{petId}/uploadImage": {
+        "/petstore/api/pet/{petId}/uploadImage": {
             "post": {
                 "tags": [
                     "pet"
@@ -62,7 +62,7 @@
                 ]
             }
         },
-        "/pet": {
+        "/petstore/api/pet": {
             "post": {
                 "tags": [
                     "pet"
@@ -205,7 +205,7 @@
                 ]
             }
         },
-        "/pet/findByTags": {
+        "/petstore/api/pet/findByTags": {
             "get": {
                 "tags": [
                     "pet"
@@ -394,7 +394,7 @@
                 ]
             }
         },
-        "/store/order": {
+        "/petstore/api/store/order": {
             "post": {
                 "tags": [
                     "store"
@@ -433,7 +433,7 @@
                 }
             }
         },
-        "/store/order/{orderId}": {
+        "/petstore/api/store/order/{orderId}": {
             "get": {
                 "tags": [
                     "store"
@@ -504,7 +504,7 @@
                 }
             }
         },
-        "/store/inventory": {
+        "/petstore/api/store/inventory": {
             "get": {
                 "tags": [
                     "store"
@@ -535,7 +535,7 @@
                 ]
             }
         },
-        "/user/createWithArray": {
+        "/petstore/api/user/createWithArray": {
             "post": {
                 "tags": [
                     "user"
@@ -571,7 +571,7 @@
                 }
             }
         },
-        "/user/createWithList": {
+        "/petstore/api/user/createWithList": {
             "post": {
                 "tags": [
                     "user"
@@ -607,7 +607,7 @@
                 }
             }
         },
-        "/user/{username}": {
+        "/petstore/api/user/{username}": {
             "get": {
                 "tags": [
                     "user"
@@ -714,7 +714,7 @@
                 }
             }
         },
-        "/user/login": {
+        "/petstore/api/user/login": {
             "get": {
                 "tags": [
                     "user"
@@ -767,7 +767,7 @@
                 }
             }
         },
-        "/user/logout": {
+        "/petstore/api/user/logout": {
             "get": {
                 "tags": [
                     "user"
@@ -787,7 +787,7 @@
                 }
             }
         },
-        "/user": {
+        "/petstore/api/user": {
             "post": {
                 "tags": [
                     "user"
