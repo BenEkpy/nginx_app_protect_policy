@@ -2,15 +2,37 @@
     "swagger": "2.0",
     "host": "nginx-plus-c-bsi-nginx-demo.francecentral.cloudapp.azure.com",
     "basePath": "/api",
+    "tags": [
+        {
+            "name": "pet",
+            "description": "Everything about your Pets",
+            "externalDocs": {
+                "description": "Find out more",
+                "url": "http://swagger.io"
+            }
+        },
+        {
+            "name": "store",
+            "description": "Access to Petstore orders"
+        },
+        {
+            "name": "user",
+            "description": "Operations about user",
+            "externalDocs": {
+                "description": "Find out more about our store",
+                "url": "http://swagger.io"
+            }
+        }
+    ],
     "schemes": [
         "https",
         "http"
     ],
     "paths": {
-        "/petstore/api/pet/{petId}/uploadImage": 
+        "/petstore/api/pet/{petId}/uploadImage": {
             "post": {
                 "tags": [
-                    "pet
+                    "pet"
                 ],
                 "summary": "uploads an image",
                 "description": "",
@@ -206,7 +228,7 @@
                 ]
             }
         },
-        "/petstore/api/petfindByTags": {
+        "/petstore/api/pet/findByTags": {
             "get": {
                 "tags": [
                     "pet"
@@ -256,7 +278,7 @@
                 "deprecated": true
             }
         },
-        "/petstore/api/pet{petId}": {
+        "/petstore/api/pet/{petId}": {
             "get": {
                 "tags": [
                     "pet"
@@ -822,6 +844,22 @@
             }
         }
     },
+    "securityDefinitions": {
+        "api_key": {
+            "type": "apiKey",
+            "name": "api_key",
+            "in": "header"
+        },
+        "petstore_auth": {
+            "type": "oauth2",
+            "authorizationUrl": "https://petstore.swagger.io/oauth/authorize",
+            "flow": "implicit",
+            "scopes": {
+                "read:pets": "read your pets",
+                "write:pets": "modify pets in your account"
+            }
+        }
+    },
     "definitions": {
         "ApiResponse": {
             "type": "object",
@@ -995,5 +1033,9 @@
                 "name": "User"
             }
         }
+    },
+    "externalDocs": {
+        "description": "Find out more about Swagger",
+        "url": "http://swagger.io"
     }
 }
