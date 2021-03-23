@@ -23,6 +23,7 @@
             "entityType": "url",
             "action": "add-or-update"
         },
+        {
             "entity": {
                 "method": "*",
                 "name": "/vulnerabilities/brute*",
@@ -31,5 +32,6 @@
             },
             "entityType": "url",
             "action": "add-or-update"
+        }
     ]
 }
