@@ -9,12 +9,9 @@ NGINX App Protect is a Web Application Firewall that combines the proven effecti
 It runs natively on NGINX Plus to address the security challenges facing modern DevOps environments.
 
 More informations here :
-- (https://www.nginx.com/products/nginx-app-protect/)
-- (https://www.nginx.com/resources/datasheets/nginx-app-protect)
+- https://www.nginx.com/products/nginx-app-protect/
+- https://www.nginx.com/resources/datasheets/nginx-app-protect/
 
 ## How to configure NGINX App Protect
 
-To install and administrate NGINX App Protect, please refer to the official documentation : (https://docs.nginx.com/nginx-app-protect/)
-
-  git config --global user.mail "benjamin.simon.inf@gmail.com"
-  git config --global user.name "Your Name"
+To install and administrate NGINX App Protect, please refer to the official documentation : https://docs.nginx.com/nginx-app-protect/
