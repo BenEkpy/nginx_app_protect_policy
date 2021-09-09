@@ -1,5 +1,4 @@
-{
-    "modifications": [
+[
         {
             "entity": {
                 "name": "/vulnerabilities/sqli*"
@@ -29,4 +28,3 @@
             "action": "add-or-update"
         }
     ]
-}
